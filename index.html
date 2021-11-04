@@ -1649,6 +1649,14 @@ Error message and password prompt
 
 <li>HDMI Interface</li>
 
+<li>hdmi2c4-5f2</li>
+
+<li>hdmi2c4-5f2_Datasheet</li>
+
+<li>hdmi2c4-5f2_Diagram</li>
+
+<li>hdmi2c4-5f2_Pinout</li>
+
 <li>Home</li>
 
 <li>Joy-Con</li>
@@ -1820,6 +1828,10 @@ Error message and password prompt
 <li>Xbox One Fat Schematic Rev 1.0 Retail.pdf</li>
 
 <li>XBox One S</li>
+
+<li>Xbox One S - Bottom</li>
+
+<li>Xbox One S - Top</li>
 
 <li>XBox One Standby Voltage</li>
 
@@ -11783,7 +11795,7 @@ src: local(&quot;FontAwesome&quot;), url(data:application/font-woff;base64,d09GR
 <div created="20210502001134347" modified="20210710085325706" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
-<div created="20210502000209214" modified="20210927133036819" title="$:/state/sidebar">
+<div created="20210502000209214" modified="20211104103734609" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
 <div created="20210710070213889" modified="20210710070213889" title="$:/state/tab--1963855381">
@@ -11816,8 +11828,8 @@ src: local(&quot;FontAwesome&quot;), url(data:application/font-woff;base64,d09GR
 <div created="20210710064057600" modified="20210920191730261" title="$:/state/toc/Home-Microsoft--905582679">
 <pre>open</pre>
 </div>
-<div created="20210502012247117" modified="20210812200402225" title="$:/state/toc/Home-Microsoft--930108635">
-<pre>close</pre>
+<div created="20210502012247117" modified="20211104103749414" title="$:/state/toc/Home-Microsoft--930108635">
+<pre>open</pre>
 </div>
 <div created="20210710064055806" modified="20210819121710458" title="$:/state/toc/Home-Nintendo--905582679">
 <pre>open</pre>
@@ -11903,7 +11915,7 @@ src: local(&quot;FontAwesome&quot;), url(data:application/font-woff;base64,d09GR
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20210920195417733" list="" modified="20210927142212437" title="$:/StoryList">
+<div created="20211104092127293" list="" modified="20211104101837660" title="$:/StoryList">
 <pre></pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.23">
@@ -12142,6 +12154,49 @@ https://en.wikipedia.org/wiki/HDMI
 |  Pin 17 | DDC/HEC/CEC Ground | |
 |  Pin 18 | +5V | Power |
 |  Pin 19 | Hot Plug Detect/HEC Data- |HDMI 1.4+, optional, HDMI Ethernet Channel and Audio Return Channel |</pre>
+</div>
+<div created="20211104095955357" modified="20211104103252859" title="hdmi2c4-5f2">
+<pre>[[Datasheet:|hdmi2c4-5f2_Datasheet]]
+
+[[Block Diagram:|hdmi2c4-5f2_Diagram]]
+
+[[PinOut:|hdmi2c4-5f2_Pinout]]
+</pre>
+</div>
+<div _canonical_uri="Datasheet/hdmi2c4-5f2/hdmi2c4-5f2.pdf" created="20211104100221847" modified="20211104100226724" title="hdmi2c4-5f2_Datasheet" type="application/pdf">
+<pre></pre>
+</div>
+<div created="20211104100311878" modified="20211104103434233" title="hdmi2c4-5f2_Diagram">
+<pre>[img[Datasheet/hdmi2c4-5f2/hdmi2c4-5f2_BlockDiagram.png]]
+
+
+[img[Datasheet/hdmi2c4-5f2/hdmi2c4-5f2_SLC SDA Diagram.png]]
+
+[img[Datasheet/hdmi2c4-5f2/hdmi2c4-5f2_HPD Diagram.png]]
+
+[img[Datasheet/hdmi2c4-5f2/hdmi2c4-5f2_5V Diagram.png]]
+</pre>
+</div>
+<div created="20211104100645547" modified="20211104103254659" title="hdmi2c4-5f2_Pinout">
+<pre>[img[Datasheet/hdmi2c4-5f2/hdmi2c4-5f2_Pinout.png]]
+
+|Pin | Name |Pin Function |
+| A1 | SDA |DDC output HDMI cable side |
+| B1 | GND |Ground |
+| C1 | HPD |HPD - Input HDMI cable side |
+| A2 | SCL |DDC output HDMI cable side |
+| B2 | CEC |CEC output HDMI cable side |
+| C2 | 5V_OUT |+5V power supply HDMI cable side |
+| A3 | SDA_IC |DDC input ASIC side |
+| B3 | ENABLE_IC |Enable all functions |
+| C3 | VDD_5V |+5V main power supply |
+| A4 | SCL_IC |DDC input ASIC side |
+| B4 | VDD_IC |HDMI ASIC power supply |
+| C4 | HPD_IC |HPD output ASIC side |
+
+[[HDMI Interface]]
+
+</pre>
 </div>
 <div created="20210502010646608" list-before="$:/core/ui/SideBar/Open" modified="20210502012748572" tags="$:/tags/SideBar" title="Home">
 <pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
@@ -12867,8 +12922,102 @@ ul li.bullet-black::before {
 <div _canonical_uri="Microsoft/XBoxOne/Xbox One Fat Schematic Rev 1.0 Retail.pdf" created="20210920192017284" modified="20210920192127497" tags="" title="Xbox One Fat Schematic Rev 1.0 Retail.pdf" type="application/pdf">
 <pre></pre>
 </div>
-<div created="20210502005218185" modified="20210502021206028" tags="Microsoft" title="XBox One S">
-<pre>[[Xbox One S - Teardown|https://www.ifixit.com/Teardown/Xbox+One+S+Teardown/65572]]</pre>
+<div created="20210502005218185" modified="20211104092909789" tags="Microsoft" title="XBox One S">
+<pre>[[Xbox One S - Teardown|https://www.ifixit.com/Teardown/Xbox+One+S+Teardown/65572]]
+
+[[Xbox One S - Top]]
+
+[[Xbox One S - Bottom]]</pre>
+</div>
+<div created="20211104092928410" modified="20211104103736089" tags="[[XBox One S]]" title="Xbox One S - Bottom">
+<pre>[img[Microsoft/XBoxOneS/XBox_S_Motherboard_Bottom.jpeg]]
+
+&lt;ul style=&quot;list-style-type:none&quot;&gt;
+&lt;li&gt;
+   &lt;div class=&quot;fa fa-circle&quot;  style=&quot;color:red&quot;&gt;   &lt;/div&gt;
+&lt;spam&gt;Realtek [[RTL8111HM]] (Likely an iteration of the RTL8111 gigabit ethernet controller) &lt;/spam&gt;
+&lt;/li&gt;
+&lt;li&gt;
+   &lt;div class=&quot;fa fa-circle&quot;  style=&quot;color:yellow&quot;&gt;   &lt;/div&gt;
+&lt;spam&gt;Texas Instruments [[SN74LVC1G08]] single 2-input AND gate&lt;/spam&gt;
+&lt;/li&gt;
+&lt;li&gt;
+   &lt;div class=&quot;fa fa-circle&quot;  style=&quot;color:orange&quot;&gt;   &lt;/div&gt;
+&lt;spam&gt;Nuvoton [[ISD8104]] 2 W class AB audio amplifier (likely)&lt;/spam&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</pre>
+</div>
+<div created="20211104092919556" modified="20211104103550465" tags="[[XBox One S]]" title="Xbox One S - Top">
+<pre>[img[Microsoft/XBoxOneS/XBox_S_Motherboard_Top1.jpeg]]
+
+&lt;ul style=&quot;list-style-type:none&quot;&gt;
+&lt;li&gt;
+   &lt;div class=&quot;fa fa-circle&quot;  style=&quot;color:red&quot;&gt;   &lt;/div&gt;
+&lt;spam&gt;[[X949211-001 DG4001FYG87IA]] (Includes 1.75 GHz AMD &quot;Jaguar&quot; 8-core CPU + overclocked 914 MHz AMD Radeon Graphics GPU) &lt;/spam&gt;
+&lt;/li&gt;
+&lt;li&gt;
+   &lt;div class=&quot;fa fa-circle&quot;  style=&quot;color:yellow&quot;&gt;   &lt;/div&gt;
+&lt;spam&gt;[[X861949-005 T6WD5XBG-0003]] Southbridge I/O controller&lt;/spam&gt;
+&lt;/li&gt;
+&lt;li&gt;
+   &lt;div class=&quot;fa fa-circle&quot;  style=&quot;color:orange&quot;&gt;   &lt;/div&gt;
+&lt;spam&gt;16 x Samsung SEC 549 [[K4W4G1646E-BC1A]] 4 Gb (512 MB) &quot;gDDR3&quot; SDRAM (total of 16 x 512 MB = 8 GB)&lt;/spam&gt;
+&lt;/li&gt;
+&lt;li&gt;
+   &lt;div class=&quot;fa fa-circle&quot;  style=&quot;color:green&quot;&gt;   &lt;/div&gt;
+&lt;spam&gt;Toshiba [[THGBMFG6C1LBAIL]] 8 GB eMMC NAND flash&lt;/spam&gt;
+&lt;/li&gt;
+&lt;li&gt;
+   &lt;div class=&quot;fa fa-circle&quot;  style=&quot;color:blue&quot;&gt;   &lt;/div&gt;
+&lt;spam&gt;Texas Instruments [[SN75DP159]] 6 Gb/s DP++ to HDMI retimer&lt;/spam&gt;
+&lt;/li&gt;
+&lt;li&gt;
+   &lt;div class=&quot;fa fa-circle&quot;  style=&quot;color:pink&quot;&gt;   &lt;/div&gt;
+&lt;spam&gt;STMicroelectronics [[LDFPT]] 1 A LDO regulator&lt;/spam&gt;
+&lt;/li&gt;
+&lt;li&gt;
+   &lt;div class=&quot;fa fa-circle&quot;  style=&quot;color:cyan&quot;&gt;   &lt;/div&gt;
+&lt;spam&gt;ON Semiconductor [[NCP4205]] (Likely an iteration of the NCP4204 Integrated Power Control IC found in the Xbox One) (probably CPU power phase PWM controller)&lt;/spam&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+[img[Microsoft/XBoxOneS/XBox_S_Motherboard_Top2.jpeg]]
+
+
+&lt;ul style=&quot;list-style-type:none&quot;&gt;
+&lt;li&gt;
+   &lt;div class=&quot;fa fa-circle&quot;  style=&quot;color:red&quot;&gt;   &lt;/div&gt;
+&lt;spam&gt;STMicroelectronics [[LM339A]] quad voltage comparator &lt;/spam&gt;
+&lt;/li&gt;
+&lt;li&gt;
+   &lt;div class=&quot;fa fa-circle&quot;  style=&quot;color:yellow&quot;&gt;   &lt;/div&gt;
+&lt;spam&gt;Richtek [[RT9011-JGPQV]] 300 mA dual LDO regulator&lt;/spam&gt;
+&lt;/li&gt;
+&lt;li&gt;
+   &lt;div class=&quot;fa fa-circle&quot;  style=&quot;color:orange&quot;&gt;   &lt;/div&gt;
+&lt;spam&gt;Texas Instruments [[TPS51916]] memory power controller&lt;/spam&gt;
+&lt;/li&gt;
+&lt;li&gt;
+   &lt;div class=&quot;fa fa-circle&quot;  style=&quot;color:green&quot;&gt;   &lt;/div&gt;
+&lt;spam&gt;Monolithic Power Systems [[MP8757GL]] 7 A / 18 V synchronous step-down converter&lt;/spam&gt;
+&lt;/li&gt;
+&lt;li&gt;
+   &lt;div class=&quot;fa fa-circle&quot;  style=&quot;color:blue&quot;&gt;   &lt;/div&gt;
+&lt;spam&gt;ON Semiconductor [[CAT6243DCADJ]] 1 A LDO regulator&lt;/spam&gt;
+&lt;/li&gt;
+&lt;li&gt;
+   &lt;div class=&quot;fa fa-circle&quot;  style=&quot;color:pink&quot;&gt;   &lt;/div&gt;
+&lt;spam&gt;Diodes Incorporated (formerly BCD Semiconductor) [[AP2127K-ADJTRG1]] 300 mA LDO regulator&lt;/spam&gt;
+&lt;/li&gt;
+&lt;li&gt;
+   &lt;div class=&quot;fa fa-circle&quot;  style=&quot;color:cyan&quot;&gt;   &lt;/div&gt;
+&lt;spam&gt;Monolithic Power Systems [[MP2161GJ]] 2 A / 6 V synchronous step-down converter)&lt;/spam&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+[img[Microsoft/XBoxOneS/hdmi2c4-5f2_Board.JPG]]
+
+[[hdmi2c4-5f2]]  = ESD Protecion and Signal Booster for HDMI source control stage interface</pre>
 </div>
 <div created="20210920191751917" modified="20210920191929578" tags="[[XBox One]]" title="XBox One Standby Voltage">
 <pre>[img[Microsoft/XBoxOne/XBox Standby Voltage.jpeg]]</pre>
