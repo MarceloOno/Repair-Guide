@@ -1671,6 +1671,14 @@ Error message and password prompt
 
 <li>Microsoft</li>
 
+<li>NCP5901B</li>
+
+<li>NCP5901B_Datasheet</li>
+
+<li>NCP5901B_Diagram</li>
+
+<li>NCP5901B_Pinout</li>
+
 <li>Nintendo</li>
 
 <li>Pericom Semiconductor PI3USB30532</li>
@@ -11795,7 +11803,7 @@ src: local(&quot;FontAwesome&quot;), url(data:application/font-woff;base64,d09GR
 <div created="20210502001134347" modified="20210710085325706" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
-<div created="20210502000209214" modified="20211104103734609" title="$:/state/sidebar">
+<div created="20210502000209214" modified="20211113104741659" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
 <div created="20210710070213889" modified="20210710070213889" title="$:/state/tab--1963855381">
@@ -11915,7 +11923,7 @@ src: local(&quot;FontAwesome&quot;), url(data:application/font-woff;base64,d09GR
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20211104092127293" list="" modified="20211104101837660" title="$:/StoryList">
+<div created="20211104092127293" list="[[Xbox One S - Top]]" modified="20211113104814736" title="$:/StoryList">
 <pre></pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="$:/themes/tiddlywiki/vanilla" description="Emphasises individual tiddlers" name="Snow White" plugin-priority="0" plugin-type="theme" title="$:/themes/tiddlywiki/snowwhite" type="application/json" version="5.1.23">
@@ -12266,6 +12274,34 @@ with following changes:
 </div>
 <div created="20210502000552824" modified="20210502015423347" tags="[[XBox One]] [[XBox One S]] Home" title="Microsoft">
 <pre></pre>
+</div>
+<div created="20211113103259883" modified="20211113103327253" title="NCP5901B">
+<pre>[[Datasheet:|NCP5901B_Datasheet]]
+
+[[Block Diagram:|NCP5901B_Diagram]]
+
+[[PinOut:|NCP5901B_Pinout]]
+</pre>
+</div>
+<div _canonical_uri="Datasheet/NCP5901B/NCP5901B-D.PDF" created="20211113103510232" modified="20211113103516817" title="NCP5901B_Datasheet" type="application/pdf">
+<pre></pre>
+</div>
+<div _canonical_uri="Datasheet/NCP5901B/NCP5901B_Diagram.png" created="20211113103956595" modified="20211113104001163" title="NCP5901B_Diagram" type="image/png">
+<pre></pre>
+</div>
+<div created="20211113104103057" modified="20211113104613586" title="NCP5901B_Pinout">
+<pre>[img[Datasheet/NCP5901B/NCP5901B_PinOut.png]]
+
+| Pin No | Symbol | Description |
+| 1 | BST |Floating bootstrap supply pin for high side gate driver. Connect the bootstrap capacitor between this pin and the SW pin. |
+| 2 | PWM |Control input. The PWM signal has three distinctive states: Low = Low Side FET Enabled, Mid = Diode Emulation Enabled, High = High Side FET Enabled. |
+| 3 | EN |Logic input. A logic high to enable the part and a logic low to disable the part. |
+| 4 | VCC |Power supply input. Connect a bypass capacitor (0.1 mF) from this pin to ground. |
+| 5 | DRVL |Low side gate drive output. Connect to the gate of low side MOSFET. |
+| 6 | GND |Bias and reference ground. All signals are referenced to this node (QFN Flag). |
+| 7 | SW |Switch node. Connect this pin to the source of the high side MOSFET and drain of the low side MOSFET. |
+| 8 | DRVH |High side gate drive output. Connect to the gate of high side MOSFET. |
+| 9 | FLAG |Thermal flag. There is no electrical connection to the IC. Connect to ground plane. |</pre>
 </div>
 <div created="20210502000804268" modified="20210502015812385" tags="Home [[Switch Lite]]" title="Nintendo">
 <pre></pre>
@@ -12947,7 +12983,7 @@ ul li.bullet-black::before {
 &lt;/li&gt;
 &lt;/ul&gt;</pre>
 </div>
-<div created="20211104092919556" modified="20211104103550465" tags="[[XBox One S]]" title="Xbox One S - Top">
+<div created="20211104092919556" modified="20211113103217520" tags="[[XBox One S]]" title="Xbox One S - Top">
 <pre>[img[Microsoft/XBoxOneS/XBox_S_Motherboard_Top1.jpeg]]
 
 &lt;ul style=&quot;list-style-type:none&quot;&gt;
@@ -12991,7 +13027,8 @@ ul li.bullet-black::before {
 &lt;/li&gt;
 &lt;li&gt;
    &lt;div class=&quot;fa fa-circle&quot;  style=&quot;color:yellow&quot;&gt;   &lt;/div&gt;
-&lt;spam&gt;Richtek [[RT9011-JGPQV]] 300 mA dual LDO regulator&lt;/spam&gt;
+&lt;spam&gt;ON Semiconductor [[NCP5901B]] MOSFET Driver, Synchronous
+Buck&lt;/spam&gt;
 &lt;/li&gt;
 &lt;li&gt;
    &lt;div class=&quot;fa fa-circle&quot;  style=&quot;color:orange&quot;&gt;   &lt;/div&gt;
